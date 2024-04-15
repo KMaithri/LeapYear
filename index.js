@@ -10,7 +10,7 @@ var userbdyear = readLineSync.question("What is your birth year? (Enter it in th
 // check for incorrect format
 if(isNaN(userbdyear)){
   console.log("Error! Please enter birth year in the correct format");
-  console.log("hellooooooooo")
+  // console.log("hellooooooooo")
 }else{
   leapCheck(userbdyear);
 }
